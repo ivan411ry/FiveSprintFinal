@@ -62,3 +62,6 @@ default:
         t.TrainingType, durationHours, distance, meanSpeed, calories)
 		return result, nil
 }
+func (t Training) Print () {
+	t.Personal.Print()
+}
